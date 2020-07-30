@@ -1,46 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
+    <title>Our Menu</title>
+    <style>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
 
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<title>Module 2 Solution</title>
+h1 {
+    color: black
+    margin-bottom: 15px;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+h2 {
+    color: black;
+    font-size: 25px;
+    text-align: right;
+}
+p {
+    border: 1px solid black;
+    background-color: pink;
+    font-size: 20px;
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-family: Helvetica;
+    color: black;
+}
+
+.row {
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, col-lg-7, col-lg-8, col-lg-9 {
+        float: left;
+        border: 1px solid white;
+    }
+     .col-lg-1 {
+        width: 11.11%;
+    }
+    .col-lg-2 {
+        width: 22.22%;
+    }
+    .col-lg-3 {
+        width: 33.33%;
+    }
+    .col-lg-4 {
+        width: 44.44%;
+    }
+    .col-lg-5 {
+        width: 55.55%;
+    }
+    .col-lg-6 {
+        width: 66.66%;
+    }
+    .col-lg-7 {
+        width: 77.77%;
+    }
+    .col-lg-8 {
+        width: 88.88%;
+    }
+    .col-lg-9 {
+        width: 100%;
+    }
+}
+</style>
 </head>
 <body>
-	<h1>Our Menu</h1>
-	<div class="row">
-	<div class="container col-lg-4 col-md-6 col-sm-12">
-		<section>
-		<div id="chicken">
-			Chicken
-		</div>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. 
-		</p>
-		</section>
-	</div>
-	<div class="container col-lg-4 col-md-6 col-sm-12">
-		<section>
-		<div id="beef">
-			Beef
-		</div>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. 
-		</p>
-		</section>
-	</div>
-	<div class="container col-lg-4 col-md-12 col-sm-12">
-		<section>
-		<div id="sushi">
-			Sushi
-		</div>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. 
-		</p>
-		</section>
-	</div>
-	</div>
+<h1>Our Menu</h1>
+<div class="row">
+    <div class="col-lg-3 col-md-6">
+        <h2>Chicken</h2>
+        <p>Chicken is very tasty. Come and buy some at a fifty percent discount at my website.
+            Chicken is very tasty. Come and buy some at a fifty percent discount at my website.
+            Chicken is very tasty. Come and buy some at a fifty percent discount at my website.
+            Chicken is very tasty. Come and buy some at a fifty percent discount at my website.
+        </p></div>
+    <div class="col-lg-3 col-md-6">
+        <h2>Beef</h2>
+        <p>Beef is very tasty. Come and buy some at a fifty percent discount at my website.
+            Beef is very tasty. Come and buy some at a fifty percent discount at my website.
+            Beef is very tasty. Come and buy some at a fifty percent discount at my website.
+            Beef is very tasty. Come and buy some at a fifty percent discount at my website.
+            </p></div>
+    <div class="col-lg-3 col-md-6">
+        <h2>Sushi</h2>
+        <p>Sushi is very tasty. Come and buy some at a fifty percent discount at my website.
+            Sushi is very tasty. Come and buy some at a fifty percent discount at my website.
+            Sushi is very tasty. Come and buy some at a fifty percent discount at my website.
+            Sushi is very tasty. Come and buy some at a fifty percent discount at my website.
+        </p></div>
+</div>
+
 </body>
 </html>
